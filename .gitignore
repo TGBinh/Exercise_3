@@ -1,0 +1,4 @@
+abc.log
+Trash/
+*.txt
+!About gitignore.txt

@@ -1,0 +1,31 @@
+1, What:
+.gitignore là gì?: Đây là một tệp trong Git để chỉ định các file hoặc thư mục mà bạn muốn Git bỏ qua khi muốn push lên Git.
+
+2, Why:
+.gitignore được sử dụng để loại bỏ các file hoặc thư mục không cần thiết khỏi việc commit như file Logs hoặc file tự sinh ra,
+ giúp giữ cho lịch sử commit sạch sẽ và tập trung vào các file quan trọng của dự án.
+
+3, Who:
+Mọi người tham gia vào việc phát triển phần mềm sử dụng Git có thể tạo và chỉnh sửa tệp .gitignore để loại bỏ các file không mong muốn khỏi repository.
+
+4, When:
+Tạo file .gitignore từ đầu sẽ giúp loại bỏ các file tạm thời, file build, hoặc các file cấu hình không cần thiết từ lịch sử commit ngay từ đầu.
+
+5, When:
+Tệp .gitignore được đặt trong thư mục gốc của repository Git.
+
+6, How:
+- Tạo 1 tệp có tên .gitignore trong thư mục gốc của respository
+- Mỗi dòng trong tệp .gitignore đại diện cho một pattern hoặc đường dẫn mà bạn muốn bỏ qua
+
+  + Nếu muốn bỏ qua một file cụ thể, chỉ cần thêm tên file vào tệp .gitignore
+    Ví dụ: file_name.txt
+
+  + Nếu muốn bỏ qua một thư mục thêm đường dẫn của thư mục đó vào tệp .gitignore và có dấu / ở sau thư mục
+    Ví dụ: folder_name/
+
+  + Nếu muốn bỏ qua tất cả các file cùng tên trong toàn bộ dự án sử dụng dấu * ở trước đuôi file
+    Ví dụ: *.txt
+  
+  + Nếu bạn đã bỏ qua tất cả các file .txt nhưng muốn bỏ qua duy nhất một file có tên important.txt thì dùng dấu ! trước tên file
+    Ví dụ: !important.txt
