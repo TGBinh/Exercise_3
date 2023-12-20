@@ -11,7 +11,7 @@ Mọi người tham gia vào việc phát triển phần mềm sử dụng Git c
 4, When:
 Tạo file .gitignore từ đầu sẽ giúp loại bỏ các file tạm thời, file build, hoặc các file cấu hình không cần thiết từ lịch sử commit ngay từ đầu.
 
-5, When:
+5, Where:
 Tệp .gitignore được đặt trong thư mục gốc của repository Git.
 
 6, How:
